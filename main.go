@@ -11,7 +11,7 @@ func main() {
 	NAME := os.Getenv("NAME")
 
 	for {
-		log.Printf("Hi Nº %d %s", count+1, NAME)
+		log.Printf("Hi Nº %d %s *", count+1, NAME)
 		time.Sleep(60 * time.Second)
 		count++
 	}
